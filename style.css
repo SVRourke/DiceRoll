@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 14px;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.dice-container {
+    width: 70vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.dice-block {
+    border: solid black 1px;
+    width: 100%;
+    margin: 1rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+}
+.dice-block:hover {
+    transform: scale(1.02);
+}
+.display-container {
+    width: 30vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+
+}
